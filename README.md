@@ -1,6 +1,14 @@
 # MMSci_Table
 
+
 Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](s)"
+<p align="center">
+
+<p>
+
+<p align="center">
+       🤗 <a href="https://huggingface.co/datasets/yangbh217/MMSci_Table">Hugging Face</a> 📑 <a href="https://arxiv.org/pdf/">Paper</a> &nbsp&nbsp  </a>
+</p>
 
 # MMSci Dataset Collection
 
@@ -13,7 +21,7 @@ The MMSci dataset collection consists of three complementary datasets designed f
 - **MMSci-Eval**: A benchmark with 3,114 testing samples for numerical reasoning evaluation
 
 ## Framework Overview
-![Framework Overview](model.pdf)
+![Framework Overview](./assets/model.jpg)
 *Figure 1: Overview of the MMSci framework showing the four key stages: Table Image Generation, Dataset Construction, Table Structure Learning, and Visual Instruction Tuning.*
 
 ## Dataset Details
@@ -29,7 +37,7 @@ The MMSci dataset collection consists of three complementary datasets designed f
   - Complex layouts and relationships from scientific papers
   - Focus on tables with significant numerical values
 
-![MMSci-Pre Example](html1.pdf)
+![MMSci-Pre Example](./assets/html1.jpg)
 *Figure 2: Example from MMSci-Pre dataset showing the table image and its corresponding HTML representation.*
 
 ### MMSci-Ins
@@ -46,7 +54,7 @@ The MMSci dataset collection consists of three complementary datasets designed f
   - Built upon scientific domain tables
 
 
-![MMSci-Ins Example](input1.pdf)
+![MMSci-Ins Example](./assets/input1.jpg)
 *Figure 3: Example from MMSci-Ins dataset showing instruction-following samples across different tasks.*
 
 ### MMSci-Eval
@@ -76,11 +84,11 @@ The datasets were created through a rigorous process:
 
 
 #### Table Question Answering (TQA)
-![TQA Example](tqa1.pdf)
+![TQA Example](./assets/tqa1.jpg)
 *Figure 4: Example of a TQA task showing the question, reasoning steps, and answer.*
 
 #### Table Fact Verification (TFV)
-![TFV Example](tfv1.pdf)
+![TFV Example](./assets/tfv1.jpg)
 *Figure 5: Example of a TFV task showing the statement, verification process, and conclusion.*
 
 ## Citation
