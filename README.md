@@ -1,7 +1,4 @@
 # MMSci_Table
-
-
-Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](s)"
 <p align="center">
 
 <p>
@@ -9,6 +6,9 @@ Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Mul
 <p align="center">
        🤗 <a href="https://huggingface.co/datasets/yangbh217/MMSci_Table">Hugging Face</a> 📑 <a href="https://arxiv.org/pdf/">Paper</a> &nbsp&nbsp  </a>
 </p>
+
+
+Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](s)"
 
 # MMSci Dataset Collection
 
