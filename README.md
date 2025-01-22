@@ -12,6 +12,10 @@ The MMSci dataset collection consists of three complementary datasets designed f
 - **MMSci-Ins**: An instruction tuning dataset with 12K samples across three table-based tasks
 - **MMSci-Eval**: A benchmark with 3,114 testing samples for numerical reasoning evaluation
 
+## Framework Overview
+![Framework Overview](model.pdf)
+*Figure 1: Overview of the MMSci framework showing the four key stages: Table Image Generation, Dataset Construction, Table Structure Learning, and Visual Instruction Tuning.*
+
 ## Dataset Details
 
 ### MMSci-Pre
@@ -25,6 +29,9 @@ The MMSci dataset collection consists of three complementary datasets designed f
   - Complex layouts and relationships from scientific papers
   - Focus on tables with significant numerical values
 
+![MMSci-Pre Example](html1.pdf)
+*Figure 2: Example from MMSci-Pre dataset showing the table image and its corresponding HTML representation.*
+
 ### MMSci-Ins
 - **Size**: 12K samples
 - **Format**: Instruction-following samples with reasoning steps
@@ -37,6 +44,10 @@ The MMSci dataset collection consists of three complementary datasets designed f
   - Balanced distribution across three tasks
   - Each table paired with one TQA, TFV, and T2T task
   - Built upon scientific domain tables
+
+
+![MMSci-Ins Example](input1.pdf)
+*Figure 3: Example from MMSci-Ins dataset showing instruction-following samples across different tasks.*
 
 ### MMSci-Eval
 - **Size**: 3,114 samples
@@ -62,6 +73,15 @@ The datasets were created through a rigorous process:
 - Fine-tuning models for specific table-based tasks
 - Evaluating numerical reasoning capabilities in scientific contexts
 - Benchmarking table understanding and reasoning systems
+
+
+#### Table Question Answering (TQA)
+![TQA Example](tqa1.pdf)
+*Figure 4: Example of a TQA task showing the question, reasoning steps, and answer.*
+
+#### Table Fact Verification (TFV)
+![TFV Example](tfv1.pdf)
+*Figure 5: Example of a TFV task showing the statement, verification process, and conclusion.*
 
 ## Citation
 
