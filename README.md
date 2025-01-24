@@ -4,11 +4,11 @@
 <p>
 
 <p align="center">
-       🤗 <a href="https://huggingface.co/datasets/yangbh217/MMSci_Table">Hugging Face</a> 📑 <a href="https://arxiv.org/pdf/">Paper</a> &nbsp&nbsp  </a>
+       🤗 <a href="https://huggingface.co/datasets/yangbh217/MMSci_Table">Hugging Face</a> 📑 <a href="https://arxiv.org/abs/2501.13042">Paper</a> &nbsp&nbsp  </a>
 </p>
 
 
-Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](s)"
+Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](https://arxiv.org/abs/2501.13042)"
 
 # MMSci Dataset Collection
 
@@ -95,6 +95,14 @@ The datasets were created through a rigorous process:
 
 If you found this repository or paper is helpful to you, please cite our paper.
 ```
-
+@misc{yang2025doestablesourcematter,
+      title={Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning}, 
+      author={Bohao Yang and Yingji Zhang and Dong Liu and André Freitas and Chenghua Lin},
+      year={2025},
+      eprint={2501.13042},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.13042}, 
+}
 ```
 }
