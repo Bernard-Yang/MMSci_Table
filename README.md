@@ -2,7 +2,7 @@
 
 
 
-Dataset for the paper "[Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning](https://arxiv.org/abs/2501.13042)"
+Dataset for the paper "Does Table Source Matter? Benchmarking and Improving Multimodal Scientific Table Understanding and Reasoning"
 
 # MMSci Dataset Collection
 
