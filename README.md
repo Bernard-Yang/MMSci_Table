@@ -7,6 +7,7 @@ Dataset for the paper "Does Table Source Matter? Benchmarking and Improving Mult
 # MMSci Dataset Collection
 
 The MMSci dataset collection consists of three complementary datasets designed for scientific multimodal table understanding and reasoning: MMSci-Pre, MMSci-Ins, and MMSci-Eval.
+For the image data, plesea refer to the Huggingface.
 
 ## Dataset Summary
 
